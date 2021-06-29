@@ -1,0 +1,87 @@
+/* #root {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+{body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  
+} */
+.ui-title {
+  color: #54bcbc;
+}
+.swiper-container {
+  margin-top: 3rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 470px;
+  height: 470px;
+  box-shadow: 0 10px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  filter: blur(3px);
+  background: #d1ebff;
+  border-radius: 15px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: none;
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+.swiper-slide-active {
+  filter: blur(0);
+  background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    margin-top: 1rem;
+  }
+
+  .swiper-slide {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ui-title {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ui-title {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
