@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContactContainer, ContactWrapper, ContactH1, Form, SingleItem, Label, Name, ImageContainer, TextArea, FormBtn, FormBtnLink, MessageSent, MessageAppear, ContactIcon } from './ContactElements'
+import { ContactContainer, ContactWrapper, ContactH1, Form, SingleItem, Label, Name, ImageContainer, TextArea, FormBtn, FormBtnLink, MessageSent, ContactIcon } from './ContactElements'
 import Icon from '../../images/connect.svg';
 import emailjs from 'emailjs-com'
 
