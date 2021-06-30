@@ -32,7 +32,7 @@ const OwnProject = () => {
                     <Portfolio1List>
                         <OwnProjectItems
                         src={Calculator}
-                        text='Neomorphic Calculator'
+                        text='Neumorphic Calculator'
                         path='//neumorphic-calculator-by-adequito.netlify.app' 
                         label='VanillaJS'
                         />
