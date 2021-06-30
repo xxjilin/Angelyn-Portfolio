@@ -1,6 +1,6 @@
 import React from 'react';
 import Portfolio1Item from './Portfolio1Item';
-import {Cards, CardsContainer, CardsWrapper, Title, Subtitle, Portfolio1List } from './Portfolio1Elements';
+import {Cards, CardsContainer, CardsWrapper, Subtitle, Portfolio1List } from './Portfolio1Elements';
 import Loopstudios from '../../../images/loopstudios.jpg'
 import Testimonials from '../../../images/testimonials.jpg'
 import Room from '../../../images/room.jpg'

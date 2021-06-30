@@ -1,6 +1,6 @@
 import React from 'react';
 import OwnProjectItems from './OwnProjectItems';
-import {Cards, CardsContainer, CardsWrapper, Title, Subtitle, Portfolio1List } from './OwnProjectElements';
+import {Cards, CardsContainer, CardsWrapper, Subtitle, Portfolio1List } from './OwnProjectElements';
 import MusicPlayer from '../../../images/music-player.png'
 import Wonder from '../../../images/wonder.png'
 import Netflix from '../../../images/netflixclone.png'

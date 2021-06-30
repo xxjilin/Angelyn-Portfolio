@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link as LinkRouter } from 'react-router-dom';
 import styled from 'styled-components'
 
 export const ExpertiseItem = styled.li`
@@ -62,30 +61,7 @@ export const Image = styled.img`
         max-height: 100%;
         object-fit: cover;
         transition: all 0.2s linear;
-
-        
-
-        /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17); */
-//   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-//   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-//   border-radius: 10px;
-//   overflow: hidden;
-/* 
-        &:hover {
-            transform: scale(1.1);} */
 `
-
-// export const Link = styled(LinkRouter)`
-//     display: flex;
-//     flex-flow: column;
-//     width: 100px;
-//     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-//   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-//   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-//   border-radius: 10px;
-//   overflow: hidden;
-//   text-decoration: none;
-// `
 export const ExpertiseItemInfo = styled.div`
     padding: 10px;
     display: flex;

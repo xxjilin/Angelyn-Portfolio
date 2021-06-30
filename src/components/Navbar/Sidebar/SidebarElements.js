@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {FaTimes} from 'react-icons/fa'
 import { Link as LinkScroll} from 'react-scroll'
-import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
+import {MdKeyboardArrowRight} from 'react-icons/md'
 import { AiOutlineDownload,  } from "react-icons/ai";
 
 export const SidebarContainer =styled.aside`

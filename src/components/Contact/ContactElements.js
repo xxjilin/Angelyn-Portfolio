@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {Link as LinkRouter} from 'react-router-dom'
 
 export const ContactContainer = styled.div`
     display: flex;
@@ -76,9 +75,6 @@ export const MessageSent = styled.div`
     font-style: italic;
     color: #595959;
     display: none;
-`
-export const MessageAppear = styled.div`
-    display: block;
 `
 export const FormBtn = styled.div`
     margin-top: 20px;

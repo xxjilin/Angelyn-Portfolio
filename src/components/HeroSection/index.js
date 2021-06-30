@@ -12,12 +12,6 @@ const HeroSection = () => {
         setHover(!hover)
     }
 
-    const [hover1, setHover1] = useState(false)
-
-    const onHover1 = () => {
-        setHover1(!hover1)
-    }
-
     return (
         <HeroContainer id='home'>
             <HeroBg>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -36,12 +36,12 @@ export default function App() {
   "loop":true,
 }}>
   
-  <SwiperSlide><img src={Comfy}/></SwiperSlide>
-  <SwiperSlide><img src={Abstract} /></SwiperSlide>
-  <SwiperSlide><img src={Covid}/></SwiperSlide>
-  <SwiperSlide><img src={Furniture}/></SwiperSlide>
-  <SwiperSlide><img src={First}/></SwiperSlide>
-  <SwiperSlide><img src={Some}/></SwiperSlide>
+  <SwiperSlide><img src={Comfy} alt='Comfy Colors'/></SwiperSlide>
+  <SwiperSlide><img src={Abstract} alt='Abstract Design'/></SwiperSlide>
+  <SwiperSlide><img src={Covid} alt='Platform Campaign Design'/></SwiperSlide>
+  <SwiperSlide><img src={Furniture} alt='Product Theme Design'/></SwiperSlide>
+  <SwiperSlide><img src={First} alt='First Design'/></SwiperSlide>
+  <SwiperSlide><img src={Some} alt='Some by Mi'/></SwiperSlide>
   </Swiper>
     </>
   )
