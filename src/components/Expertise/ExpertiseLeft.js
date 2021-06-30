@@ -31,7 +31,7 @@ const ExpertiseLeft = () => {
                         <ExpertiseLeftItem
                         src={JS}
                         text='JAVASCRIPT'
-                        description='Adding interactive behavior to web pages'
+                        description='Adding interactive behavior to web pages.'
                         />
                     </ExpertiseLeftList>
                 </ExpertiseLeftWrapper>
