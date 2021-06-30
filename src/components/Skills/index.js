@@ -24,7 +24,7 @@ const Skills = () => {
                 <SkillsCard>
                     <SkillsIcon src={Icon3}/>
                     <SkillsH2>UI Design</SkillsH2>
-                    <SkillsP> Creating visual, interactive elements of a product interface</SkillsP>
+                    <SkillsP> Creating visual, interactive elements of a product interface.</SkillsP>
                 </SkillsCard>
             </SkillsWrapper>
         
