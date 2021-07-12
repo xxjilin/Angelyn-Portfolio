@@ -10,9 +10,9 @@ import SwiperCore, {
   EffectCoverflow,Pagination
 } from 'swiper/core';
 import "./styles.css";
+import Covid from '../../../images/covid.png'
 import Abstract from '../../../images/abstract.png'
 import Comfy from '../../../images/comfy_colors.png'
-import Covid from '../../../images/covid.png'
 import First from '../../../images/first_design.png'
 import Furniture from '../../../images/furniture.png'
 import Some from '../../../images/some.png'
